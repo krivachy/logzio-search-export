@@ -1,0 +1,42 @@
+{
+  "name": "logzio-search-export",
+  "version": "0.0.1",
+  "description": "CLI to export/dump a search result from Logz.io",
+  "main": "logzio-search-export.js",
+  "bin": {
+    "logzio-search-export": "./bootstrap.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests to run\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krivachy/logzio-search-export.git"
+  },
+  "author": "Akos Krivachy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krivachy/logzio-search-export/issues"
+  },
+  "homepage": "https://github.com/krivachy/logzio-search-export",
+  "keywords": [
+    "logzio-search-export",
+    "logzio",
+    "cli",
+    "kibana",
+    "search",
+    "export",
+    "dump"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cli-progress": "^3.7.0",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "csv-write-stream": "^2.0.0",
+    "exit-hook": "^2.2.0",
+    "get-stdin": "^7.0.0",
+    "lodash": "^4.17.15",
+    "top-level-await": "^1.1.0"
+  }
+}
