@@ -21,12 +21,12 @@ program
   .option('-t, --api-token <api-token>', 'Logz.io API token [envvar: LOGZIO_API_TOKEN]')
   .option('-r, --region <region>', 'Logz.io region for account, defaults to eu [envvar: LOGZIO_API_REGION]')
   .option('-s, --search <search>', 'A simple search term. For more complex queries pipe in via stdin.')
-  .option('-e, --extract <extract>', 'log entry fields to extract in output (can be provided multiple times) (default: all fields are returned)', collect, [])
+  .option('-e, --extract <extract>', 'Log entry fields to extract in output (can be provided multiple times) (default: all fields are returned)', collect, [])
   .option('--start <start-time>', 'A Logz,io compatible query start time', 'now-5m')
   .option('--end <end-time>', 'A Logz.io compatible end time', 'now')
-  .option('-f, --format <format>', 'output format [json, csv]', 'json')
-  .option('-o, --output <output>', 'output file to write results to (default: stdout)')
-  .option('-v, --verbose', 'print verbose output')
+  .option('-f, --format <format>', 'Output format [json, csv]', 'json')
+  .option('-o, --output <output>', 'Output file to write results to (default: stdout)')
+  .option('-v, --verbose', 'Print verbose output')
   .parse(process.argv);
 
 const progress = new cliProgress.SingleBar({

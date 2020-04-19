@@ -34,14 +34,14 @@ Options:
   -r, --region <region>        Logz.io region for account, defaults to eu [envvar: LOGZIO_API_REGION]
 
   -s, --search <search>        A simple search term. For more complex queries pipe in via stdin.
-  -e, --extract <extract>      log entry fields to extract in output (can be provided multiple times) (default: all fields are returned) (default: [])
+  -e, --extract <extract>      Log entry fields to extract in output (can be provided multiple times) (default: all fields are returned) (default: [])
   --start <start-time>         A Logz,io compatible query start time (default: "now-5m")
   --end <end-time>             A Logz.io compatible end time (default: "now")
 
-  -f, --format <format>        output format [json, csv] (default: "json")
-  -o, --output <output>        output file to write results to (default: stdout)
+  -f, --format <format>        Output format [json, csv] (default: "json")
+  -o, --output <output>        Output file to write results to (default: stdout)
 
-  -v, --verbose                print verbose output
+  -v, --verbose                Print verbose output
   -h, --help                   display help for command
 ```
 
