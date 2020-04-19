@@ -108,6 +108,9 @@ Your account is limited to one [Logz.io region][2] so make sure you're selecting
 
 You can export the `LOGZIO_API_REGION` environment variable to not have to provide the `--region` flag on each run.
 
+## License
+
+[MIT](./LICENSE)
 
 [1]: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
 [2]: https://docs.logz.io/user-guide/accounts/account-region.html
