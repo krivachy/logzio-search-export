@@ -195,7 +195,7 @@ function writeJson(hit) {
 
 function writeCsv(hit) {
   if (!csvWriter) {
-    csvWriter = csvWriteStream();
+    csvWriter = csvWriteStream({headers: program.extract});
     csvWriter.pipe(outputStream);
   }
   csvWriter.write(hit['_source']);
